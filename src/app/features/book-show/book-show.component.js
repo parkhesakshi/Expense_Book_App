@@ -12,7 +12,7 @@ const BookShow = ({ expensedata }) => {
   };
 
   return (
-    <div className="flex flex-col gap-y-3 bg-blueLightColor basis-[60%] rounded-md p-3">
+    <div className="flex flex-col gap-y-3 bg-blueLightColor basis-[60%] rounded-md p-3 h-[250px]">
       <div className="flex justify-between">
         <p className="text-white">Filter by year</p>
         <select name="" id="">
@@ -21,7 +21,7 @@ const BookShow = ({ expensedata }) => {
           <option value="2016">2016</option>
         </select>
       </div>
-      <div className="h-full overflow-auto flex flex-col gap-4">
+      <div className="overflow-auto flex flex-col gap-4">
         {expensedata?.length ? (
           expensedata?.map((item, index) => (
             <div
