@@ -10,12 +10,19 @@ const BookFormComponent = ({ addExpenceData }) => {
   const [expenceFormData, setexpenceFormData] = useState({ ...initialState });
 
   const handleAdd = () => {
+    if (isInValidForm()) return;
     addExpenceData(expenceFormData);
     setexpenceFormData(initialState);
   };
 
   const handleFormChange = (e) => {
     setexpenceFormData({ ...expenceFormData, [e.target.name]: e.target.value });
+  };
+
+  const isInValidForm = () => {
+    return Object.keys(expenceFormData)
+      .map((key) => !!expenceFormData[key])
+      .includes(false);
   };
 
   const [showForm, setShowForm] = useState(false);
