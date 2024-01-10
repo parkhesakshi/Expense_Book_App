@@ -1,8 +1,13 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+import LayoutComponent from "./app/layout/layout.component";
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <LayoutComponent />
+    </div>
+  );
 }
 
 export default App;

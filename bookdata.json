@@ -1,3 +1,64 @@
 {
-    "books":[]
+    "books": [
+        {
+            "id": 1,
+            "title": "Harry Potter",
+            "date": "2022-01-01",
+            "price": 123.45
+        },
+        {
+            "id": 2,
+            "title": "The Lord of the Rings",
+            "date": "2022-02-05",
+            "price": 89.99
+        },
+        {
+            "id": 3,
+            "title": "To Kill a Mockingbird",
+            "date": "2022-03-12",
+            "price": 54.75
+        },
+        {
+            "id": 4,
+            "title": "1984",
+            "date": "2022-04-20",
+            "price": 67.88
+        },
+        {
+            "id": 5,
+            "title": "The Great Gatsby",
+            "date": "2022-05-15",
+            "price": 42.50
+        },
+        {
+            "id": 6,
+            "title": "The Catcher in the Rye",
+            "date": "2022-06-22",
+            "price": 33.25
+        },
+        {
+            "id": 7,
+            "title": "Pride and Prejudice",
+            "date": "2022-07-30",
+            "price": 75.60
+        },
+        {
+            "id": 8,
+            "title": "The Hobbit",
+            "date": "2022-08-18",
+            "price": 98.00
+        },
+        {
+            "id": 9,
+            "title": "The Da Vinci Code",
+            "date": "2022-09-09",
+            "price": 120.75
+        },
+        {
+            "id": 10,
+            "title": "The Chronicles of Narnia",
+            "date": "2022-10-14",
+            "price": 55.40
+        }
+    ]
 }

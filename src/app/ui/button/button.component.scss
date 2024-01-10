@@ -1,0 +1,29 @@
+@use "../../../../styles/global/variable" as v;
+.ui-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+}
+.icon {
+  background: transparent;
+  border-radius: 50%;
+  padding: 10px;
+  color: v.$icon-color;
+
+  &:hover {
+    background-color: v.$icon-color-grey;
+  }
+}
+.profile-btn {
+  background: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  color: v.$icon-color;
+
+  &:hover {
+    background-color: v.$icon-color-grey;
+  }
+}
