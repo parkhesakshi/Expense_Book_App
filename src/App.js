@@ -4,7 +4,7 @@ import LayoutComponent from "./app/layout/layout.component";
 
 function App() {
   return (
-    <div>
+    <div className="flex justify-center items-center min-h-[100vh]">
       <LayoutComponent />
     </div>
   );
